@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        hello();
+        function hello(){
+            document.write("hellooooo");
+        }
+    </script>
+     -->
+    <!-- <script>
+        a=parseInt(prompt("enter a"));
+        b=parseInt(prompt("enter b"));
+        add(a,b);
+        function add(a,b){
+            document.write(a+b);
+        }
+         </script> -->
+
+         <!-- <script>
+             a=parseInt(prompt("enter a"));
+             b=parseInt(prompt("enter b"));
+             document.write(add(a,b));
+              function add(a,b){
+            return a+b;
+        }
+        </script> -->
+
+        <script>
+            op=prompt("enter operation");
+            a=parseInt(prompt("enter a"));
+            b=parseInt(prompt("enter b"));
+            if(op=="1"){
+                add=(a,b)=>a+b
+                document.write(add(a,b));
+            }
+            else if(op=="2"){
+                 sub=(a,b)=>a-b
+                document.write(sub(a,b));
+
+            }
+            else{
+                  document.write("invalid")
+            }
+            
+            
+
+        </script>
+</body>
+</html>

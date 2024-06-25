@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- <script>
+        let arr=[1,2,3,4];
+        for(let a of arr){
+            if(a%2==0){
+            document.write(a);
+            }
+        }
+    </script> -->
+    <!-- <script>
+        let arr=[10,2,5,7,30,42]
+        s=arr[0]
+        for(let a of arr){
+            if(a<s){
+                s=a
+            }
+        }
+        document.write(s)
+    </script> -->
+    <!-- <script>
+        let arr=[1,9,2,3,5,8];
+        arr.push(7)
+        arr.pop()
+        arr.shift()
+        arr.unshift(0)
+        arr.splice(4,0,6)
+        delete arr[1]
+        document.write(arr);
+    </script> -->
+    <!-- <script>
+        let arr=[1,2,3,4,5]
+        let num1=arr.slice(0,2);
+        document.write(num);
+        
+    </script> -->
+    <!-- <script>
+        let arr=[1,2,3,4,5]
+        // let arr1=[6,7,8,9,0]
+        // let num=arr.concat(arr1);
+        let num=arr.sort(function(a,b){return a-b});
+        document.write(num);
+        </script> -->
+        <script>
+            let arr=[1,2,3];
+            //  arr.forEach((a)=>{document.write(a*2+"<br>")});
+            // arr.map((a)=>{document.write(a*2+"<br>")});
+            // let newarr=arr.filter((a)=>{if(a%2==0){return a}});
+            // document.write(newarr);
+            // let newarr=arr.findIndex((a)=>a<6);
+            // document.write(newarr);
+            let newarr=arr.reduce((a,b)=>{return a+b});
+             document.write(newarr+"<br>");
+
+            
+        </script>
+    
+    
+</body>
+</html>

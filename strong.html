@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        var num=prompt("enter a number");
+        var temp=num,sum=0;
+        while(num>0){
+            rem=num%10;
+            let fact=1;
+            for(i=1;i<=rem;i++){
+                fact=fact*i;
+            }
+            sum+=fact;
+            num=parseInt(num/10);
+        }
+        if(temp=sum){
+            document.write("it is a strong number");
+        }
+        else{
+            document.write("it is a strong number");
+
+        }
+    </script>
+     -->
+    <script>
+        var num=prompt("enter a number");
+        num1=parseInt(num);sum="",rem=0;
+        while(num!=0){
+            rem=num1%10;
+            num1=parseInt(num/10);
+        
+        switch(rem){
+            case 0:sum='z'+sum;
+            break;
+            case 1:sum='o'+sum;
+            break;
+            case 2:sum='t'+sum;
+            break;
+            case 3:sum='t'+sum;
+            break;
+            case 4:sum='f'+sum;
+            break;
+            case 5:sum='f'+sum;
+            break;
+            case 6:sum='s'+sum;
+            break;
+            case 7:sum='s'+sum;
+            break;
+            case 8:sum='e'+sum;
+            break;
+            case 9:sum='n'+sum;
+            break;
+        }
+    }
+        document.write(sum);
+    </script>
+</body>
+</html>
